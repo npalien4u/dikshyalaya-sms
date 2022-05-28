@@ -169,7 +169,7 @@ class DatabaseSeeder extends Seeder
 
                 $this->callWith(SmUploadContentTableSeeder::class, array_merge($params, ['count' => 5]));
                 
-                $this->callWith(SmStudentCertificateTableSeeder::class, array_merge($params, ['count' => 5]));
+                //$this->callWith(SmStudentCertificateTableSeeder::class, array_merge($params, ['count' => 5]));
                 $this->callWith(SmSmTodoTableSeeder::class, array_merge($params, ['count' => 5]));
                 $this->callWith(SmOptionSubjectTableSeeder::class, array_merge($params, ['count' => 5]));
                 $this->callWith(SmAssignClassTeacherTableSeeder::class, array_merge($params, ['count' => 5]));
